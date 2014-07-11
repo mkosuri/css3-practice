@@ -100,3 +100,27 @@ text-align:left;
 h3{
 	color: blue;
 }
+a{
+	background-color: orange;
+	/*transition-property: background;
+	transition-duration :1s;
+	transition-delay :0.60s;*/
+	
+
+  
+}
+a:hover{background-color: blue;}
+
+.fade{
+   -webkit-transition: opacity 1s ease-in;
+   -moz-transition: opacity 1s ease-in;
+}
+.fade h3{
+ background-color: red;	
+}
+.fade:hover{ 
+ opacity: .8;
+}
+.image{
+	background-color: red;
+}
